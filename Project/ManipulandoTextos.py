@@ -12,14 +12,14 @@ print('\nAnálise de textos')
 print(f'O comprimento desta frase é: {len(frase)}')
 print(f'Nesta frase tem {frase.count("o")} caracteres "o"')
 print(f'Nesta frase tem {frase.upper().count("o")} caracteres "O" maiusculo')
-print(f'Tem a palavra "Luninha" em {frase}? : {"Luninha" in frase}')
+print(f'Tem a palavra "Luninhas.py" em {frase}? : {"Luninhas.py" in frase}')
 print(f'Qual é a posição da palavra "Vídeo"?: {frase.find("vídeo")}')
 print(f'A frase2 tem {len(frase2)} caracteres')
 
 print('\nTransformação de textos')
 # remove espaços antes e depois da frase2
 print(f'A frase2 tem {len(frase2.strip())} letras')
-print(f'Trocando "Python por "Luninha: {frase.replace("Python", "Luninha")}"')
+print(f'Trocando "Python por "Luninhas.py: {frase.replace("Python", "Luninhas.py")}"')
 
 print('\nDivisão de textos')
 print(f'Separando o texto em listas: {frase.split()}')
